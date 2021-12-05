@@ -61,3 +61,24 @@ function sub() {
     console.log(x-y);
 }
 sub()
+
+
+//  Function with loop ,array 
+
+var arr1 = [ 1,2,3,4,5,6,7,8,9,10]
+var arr2 = [ 11,12,13,14,15,16,17,18,19,20]
+var arr3 = [ 21,22,23,24,25,26,27,28,29,30]
+var arr4 = [ 41,42,43,44,45,46,47,48,49,50]
+
+function arrayOfSum(arr) {
+    var sum = 0 ;
+    for (var i = 0 ; i< arr.length  ; i++ ){
+        sum += arr[i];
+    }
+    console.log(sum);
+}
+arrayOfSum(arr1)
+arrayOfSum(arr2)
+arrayOfSum(arr3)
+arrayOfSum(arr4)
+
