@@ -35,3 +35,29 @@ if( obj1.a === obj2.a && obj1.b === obj2.b){
 
 // JSON (if one valur is false ruturn false ) 
 console.log(JSON.stringify(obj1) === JSON.stringify(obj2) ) ;
+
+// Function
+function name(params) {
+    
+}
+
+// how to call Function 
+
+function myFunction() {
+    console.log('I am Emtiaz Emon.I live in Rangpur City. I love to play cricket also football. My dream job is react native developer . ');
+}
+myFunction()
+
+function add() {
+    x= 10 ,
+    y = 20
+    console.log(x+y);
+}
+add ()
+
+function sub() {
+    x = 30,
+    y = 10
+    console.log(x-y);
+}
+sub()
