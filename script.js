@@ -32,3 +32,6 @@ if( obj1.a === obj2.a && obj1.b === obj2.b){
 }else{
     console.log(false);
 }
+
+// JSON (if one valur is false ruturn false ) 
+console.log(JSON.stringify(obj1) === JSON.stringify(obj2) ) ;
