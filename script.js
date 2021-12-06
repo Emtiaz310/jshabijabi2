@@ -82,3 +82,15 @@ arrayOfSum(arr2)
 arrayOfSum(arr3)
 arrayOfSum(arr4)
 
+
+// JS arguments
+
+function addAll() {
+    var sum = 0;
+    for( var i= 0; i< arguments.length ; i++){
+        sum += arguments[i];
+    }
+    console.log(sum);
+}
+addAll(3,10,2002) ;
+addAll(100,200,300,400,500,600,700,800,900,1000)
