@@ -1,3 +1,20 @@
+// inner function 
+function morning (greet ,name ) {
+    function getFirstName() {
+        if(name){
+            return name.split(' ')[0] ;
+        }
+        else {
+            return ' Visitor' ;
+        }
+    }
+    var message = greet + ' ' + getFirstName();
+    document.getElementById('demo').innerHTML = message ;
+}
+
+morning('Good Morning ' , 'Emtiaz Hossain Emon');
+
+
 // // Reverse Method  
 // let arr = [ 1,2,3,4,5,6,7,8,9,10] ;
 // let leng = arr.length;
@@ -94,3 +111,5 @@ function addAll() {
 }
 addAll(3,10,2002) ;
 addAll(100,200,300,400,500,600,700,800,900,1000)
+
+
