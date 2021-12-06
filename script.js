@@ -113,3 +113,33 @@ addAll(3,10,2002) ;
 addAll(100,200,300,400,500,600,700,800,900,1000)
 
 
+// First class function 
+
+function add(a,b) {
+    return a+b ;
+}
+
+// 1. A function can be  stored in a Variable .
+var sum = add ;
+console.log(typeof sum);
+console.log(sum(3,10));
+
+// 2. A function can be  stored in an Array .
+var arr = [] 
+arr.push(add)
+console.log(arr)
+console.log(arr[0](5,10));
+console.log(typeof arr);
+
+// 3. A function can be  stored in an Object .
+var obj = {
+    sum : add
+}
+console.log(obj);
+console.log(obj.sum(5,20));
+
+// 4. We can create function as  need  .
+setTimeout(function() {
+    console.log('I am enjoying javaScript');
+}, 4000);
+// 4. We can pass  function as an arguments  .
