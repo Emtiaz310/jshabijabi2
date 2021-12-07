@@ -139,7 +139,7 @@ console.log(obj);
 console.log(obj.sum(5,20));
 
 // 4. We can create function as  need  .
-setTimeout(function() {
-    console.log('I am enjoying javaScript');
-}, 4000);
-// 4. We can pass  function as an arguments  .
+// setTimeout(function() {
+//     console.log('I am enjoying javaScript');
+// }, 1000);
+// 4. We can pass  function as an arguments  . 
