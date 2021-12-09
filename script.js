@@ -12,7 +12,7 @@ function morning (greet ,name ) {
     document.getElementById('demo').innerHTML = message ;
 }
 
-morning('Good Morning ' , 'Emtiaz Hossain Emon');
+morning('Good Morning ' , 'Myfriend');
 
 
 // // Reverse Method  
