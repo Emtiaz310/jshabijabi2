@@ -1,10 +1,21 @@
+// function test() {
+
+//     var msg = 'I am learning JavaScript Closure and Scope .' 
+
+//     function sayMsg() {
+//         console.log(msg);
+//     }
+//     sayMsg()
+// }
+// test()
+
 function test() {
-    
+
     var msg = 'I am learning JavaScript Closure and Scope .' 
 
-    function sayMsg() {
+    return function() {
         console.log(msg);
     }
-    sayMsg()
 }
-test()
+var sayMsg = test()
+sayMsg();
